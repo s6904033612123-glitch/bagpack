@@ -1,13 +1,13 @@
 [
   {
     "id": "p1",
-    "name": "FocusCollection",
-    "mood": "fresh",
+    "name": "Focus Mini Canvas Tote",
+    "mood": "focus",
     "type": "mini",
     "size": "20 x 22 cm",
     "price": 89,
     "image": "image/focuscollection.jpg",
-    "description": "กระเป๋าผ้าแคนวาสขนาดมินิ โทนสีสดใสสะท้อนพลังบวก เหมาะสำหรับใส่ของกะทัดรัดในวันสบายๆ"
+    "description": "กระเป๋าผ้าแคนวาสขนาดมินิ สำหรับจัดระเบียบของชิ้นเล็ก"
   },
   {
     "id": "p2",
