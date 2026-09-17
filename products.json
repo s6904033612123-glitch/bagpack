@@ -1,0 +1,102 @@
+[
+  {
+    "id": "p1",
+    "name": "Fresh Mini Canvas Tote",
+    "mood": "fresh",
+    "type": "mini",
+    "size": "20 x 22 cm",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "กระเป๋าผ้าแคนวาสขนาดมินิ โทนสีสดใสสะท้อนพลังบวก เหมาะสำหรับใส่ของกะทัดรัดในวันสบายๆ"
+  },
+  {
+    "id": "p2",
+    "name": "Fresh Everyday Tote Bag",
+    "mood": "fresh",
+    "type": "everyday",
+    "size": "35 x 40 cm",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "กระเป๋าผ้ารูปทรงคลาสสิก จุของได้เยอะ ใช้งานได้ทุกวัน เติมความสดชื่นให้กับการแต่งกาย"
+  },
+  {
+    "id": "p3",
+    "name": "Relax Mini Canvas Tote",
+    "mood": "relax",
+    "type": "mini",
+    "size": "20 x 22 cm",
+    "price": 89,
+    "image": "images/relax.jpg",
+    "description": "กระเป๋าผ้าแคนวาสมินิ โทนสีละมุนอบอุ่น ให้ความรู้สึกผ่อนคลาย พกพาง่ายสะดวกสบาย"
+  },
+  {
+    "id": "p4",
+    "name": "Relax Everyday Tote Bag",
+    "mood": "relax",
+    "type": "everyday",
+    "size": "35 x 40 cm",
+    "price": 199,
+    "image": "images/relax.jpg",
+    "description": "กระเป๋าสะพายไหล่ขนาดกำลังดี ดีไซน์เรียบง่าย ชิลล์ได้ทุกวัน ตอบโจทย์ไลฟ์สไตล์สโลว์ไลฟ์"
+  },
+  {
+    "id": "p5",
+    "name": "Relax Fluffy Shoulder Pouch",
+    "mood": "relax",
+    "type": "fluffy",
+    "size": "25 x 18 cm",
+    "price": 149,
+    "image": "images/relax.jpg",
+    "description": "กระเป๋านุ่มฟูสัมผัสนุ่มนวล โทนสีอบอุ่น เพิ่มกิมมิกความน่ารักนุ่มฟูให้ลุคผ่อนคลาย"
+  },
+  {
+    "id": "p6",
+    "name": "Focus Mini Canvas Tote",
+    "mood": "focus",
+    "type": "mini",
+    "size": "20 x 22 cm",
+    "price": 89,
+    "image": "images/focus.jpg",
+    "description": "กระเป๋าผ้าทรงมินิสีสุขุม เรียบหรู เสริมสมาธิและความเป็นระเบียบเรียบร้อย"
+  },
+  {
+    "id": "p7",
+    "name": "Focus Everyday Tote Bag",
+    "mood": "focus",
+    "type": "everyday",
+    "size": "35 x 40 cm",
+    "price": 199,
+    "image": "images/focus.jpg",
+    "description": "กระเป๋าโท้ทใบใหญ่จุใจ สายลุยงานใส่ iPad/เอกสารได้สบาย ทรงสวยเป๊ะ สะท้อนความโปร"
+  },
+  {
+    "id": "p8",
+    "name": "Romance Mini Canvas Tote",
+    "mood": "romance",
+    "type": "mini",
+    "size": "20 x 22 cm",
+    "price": 89,
+    "image": "images/romance.jpg",
+    "description": "กระเป๋าผ้ามินิสีหวานอ่อนโยน เติมความโรแมนติกและเสน่ห์นุ่มนวลให้ทุกการเดินทาง"
+  },
+  {
+    "id": "p9",
+    "name": "Romance Everyday Tote Bag",
+    "mood": "romance",
+    "type": "everyday",
+    "size": "35 x 40 cm",
+    "price": 199,
+    "image": "images/romance.jpg",
+    "description": "กระเป๋าโท้ทสีหวานละมุนสายตา แมตช์เข้าชุดง่าย เติมความอ่อนหวานน่ารักได้ทุกวัน"
+  },
+  {
+    "id": "p10",
+    "name": "Romance Fluffy Shoulder Pouch",
+    "mood": "romance",
+    "type": "fluffy",
+    "size": "25 x 18 cm",
+    "price": 149,
+    "image": "images/romance.jpg",
+    "description": "กระเป๋าสะพายเนื้อนุ่มฟูสีโรแมนติก มอบสัมผัสนุ่มนวล น่าทะนุถนอม สไตล์มินิมอลเกาหลี"
+  }
+]

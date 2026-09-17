@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด | AuraCarry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav style="background-color: var(--bg-card); border-bottom: 1px solid var(--border-light); padding: 1.25rem 0; position: sticky; top: 0; z-index: 100;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.05em; color: var(--text-main);">AuraCarry</a>
+      <div style="display: flex; gap: 1.5rem; align-items: center;">
+        <a href="index.html" style="color: var(--text-muted);">หน้าแรก</a>
+        <a href="product.html" style="font-weight: 500;">สินค้าทั้งหมด</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <section class="section-padding" style="padding-bottom: 2rem;">
+    <div class="container" style="text-align: center;">
+      <h1 style="margin-bottom: 0.75rem;">Our Products</h1>
+      <p style="max-width: 600px; margin: 0 auto 2rem;">เลือกชมกระเป๋าผ้าทรงสวยมินิมอล ตอบโจทย์การใช้งานตามอารมณ์และไลฟ์สไตล์ของคุณ</p>
+      
+      <!-- Filter Bar Element -->
+      <div id="filter-bar" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem;"></div>
+    </div>
+  </section>
+
+  <!-- Products Grid Section -->
+  <section style="padding-bottom: 5rem;">
+    <div class="container">
+      <!-- Product List Element (script.js renders here) -->
+      <div id="product-list" class="products-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-light); padding: 3rem 0; text-align: center;">
+    <div class="container">
+      <p style="color: var(--text-light); font-size: 0.85rem;">&copy; AuraCarry. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

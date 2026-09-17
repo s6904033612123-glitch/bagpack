@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | AuraCarry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav style="background-color: var(--bg-card); border-bottom: 1px solid var(--border-light); padding: 1.25rem 0;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.05em; color: var(--text-main);">AuraCarry Admin</a>
+      <a href="index.html" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.85rem;">ไปหน้าเว็บขาย</a>
+    </div>
+  </nav>
+
+  <!-- Admin Dashboard Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div style="margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <h1 style="font-size: 2rem; margin-bottom: 0.5rem;">รายการสั่งซื้อทั้งหมด</h1>
+          <p>ข้อมูลการสั่งซื้อล่าสุดเรียงจากใหม่ไปเก่า</p>
+        </div>
+      </div>
+
+      <!-- Orders Table Container -->
+      <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); overflow-x: auto; box-shadow: var(--shadow-sm);">
+        <table id="ordersTable" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem;">
+          <thead>
+            <tr style="background-color: var(--bg-secondary); border-bottom: 1px solid var(--border-light); color: var(--text-main); font-weight: 500;">
+              <th style="padding: 1rem;">วัน-เวลา</th>
+              <th style="padding: 1rem;">ชื่อลูกค้า</th>
+              <th style="padding: 1rem;">ช่องทางติดต่อ</th>
+              <th style="padding: 1rem;">รายการสินค้า</th>
+              <th style="padding: 1rem;">ราคารวม</th>
+              <th style="padding: 1rem;">หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- script.js will render rows here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-light); padding: 3rem 0; text-align: center; margin-top: 4rem;">
+    <div class="container">
+      <p style="color: var(--text-light); font-size: 0.85rem;">&copy; AuraCarry Management System</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

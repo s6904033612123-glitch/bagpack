@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า | AuraCarry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav style="background-color: var(--bg-card); border-bottom: 1px solid var(--border-light); padding: 1.25rem 0; position: sticky; top: 0; z-index: 100;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.05em; color: var(--text-main);">AuraCarry</a>
+      <div style="display: flex; gap: 1.5rem; align-items: center;">
+        <a href="index.html" style="color: var(--text-muted);">หน้าแรก</a>
+        <a href="product.html" style="color: var(--text-muted);">สินค้าทั้งหมด</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Order Section -->
+  <section class="section-padding">
+    <div class="container" style="max-width: 600px;">
+      <div style="text-align: center; margin-bottom: 2.5rem;">
+        <h1 style="margin-bottom: 0.5rem; font-size: 2rem;">ยืนยันการสั่งซื้อ</h1>
+        <p>กรอกข้อมูลรายละเอียดการจัดส่งสินค้าเพื่อทำการสั่งซื้อ</p>
+      </div>
+
+      <div style="background-color: var(--bg-card); border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 2rem; box-shadow: var(--shadow-sm);">
+        <form id="orderForm" style="display: flex; flex-direction: column; gap: 1.25rem;">
+          
+          <div>
+            <label for="items" style="display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.9rem;">รายการสินค้า</label>
+            <input type="text" id="items" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.95rem; background-color: var(--bg-secondary);">
+          </div>
+
+          <div>
+            <label for="total" style="display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.9rem;">จำนวนเงินรวม (บาท)</label>
+            <input type="text" id="total" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.95rem; background-color: var(--bg-secondary);">
+          </div>
+
+          <div>
+            <label for="customerName" style="display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.9rem;">ชื่อ-นามสกุล ผู้รับ</label>
+            <input type="text" id="customerName" placeholder="เช่น สมชาย ใจดี" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.95rem;">
+          </div>
+
+          <div>
+            <label for="contact" style="display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.9rem;">เบอร์โทรศัพท์ / Line ID</label>
+            <input type="text" id="contact" placeholder="เช่น 081-234-5678 / @lineid" required style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.95rem;">
+          </div>
+
+          <div>
+            <label for="note" style="display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.9rem;">หมายเหตุเพิ่มเติม (ถ้ามี)</label>
+            <textarea id="note" rows="3" placeholder="เช่น ที่อยู่จัดส่ง หรือรายละเอียดเพิ่มเติม" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-light); border-radius: var(--radius-sm); font-family: inherit; font-size: 0.95rem; resize: vertical;"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 1rem; width: 100%; padding: 1rem;">ยืนยันสั่งซื้อ</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-light); padding: 3rem 0; text-align: center; margin-top: 4rem;">
+    <div class="container">
+      <p style="color: var(--text-light); font-size: 0.85rem;">&copy; AuraCarry. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

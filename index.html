@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraCarry | Minimalist Everyday Bags</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav style="background-color: var(--bg-card); border-bottom: 1px solid var(--border-light); padding: 1.25rem 0; position: sticky; top: 0; z-index: 100;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="index.html" style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.05em; color: var(--text-main);">AuraCarry</a>
+      <div style="display: flex; gap: 1.5rem; align-items: center;">
+        <a href="index.html" style="font-weight: 500;">หน้าแรก</a>
+        <a href="product.html" style="color: var(--text-muted);">สินค้าทั้งหมด</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="section-padding" style="background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-main) 100%); text-align: center; padding: 6rem 1rem;">
+    <div class="container" style="max-width: 800px;">
+      <span class="tag tag-relax" style="margin-bottom: 1.5rem; font-size: 0.85rem;">Minimalist Collection</span>
+      <h1 style="margin-bottom: 1.25rem;">AuraCarry</h1>
+      <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 2.5rem; line-height: 1.8;">
+        กระเป๋าผ้าและกระเป๋าสะพายที่ออกแบบอย่างเรียบง่าย เติมเต็มสไตล์มินิมอลในทุกๆ วันของคุณ ตอบโจทย์ทุกอารมณ์และไลฟ์สไตล์อย่างลงตัว
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="product.html" class="btn btn-primary">ดูสินค้าทั้งหมด</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mood Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3.5rem;">
+        <h2 style="margin-bottom: 0.75rem;">Shop by Mood</h2>
+        <p>เลือกกระเป๋าผ้าในสไตล์และอารมณ์ที่สะท้อนความเป็นคุณ</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem;">
+        
+        <!-- Mood: Fresh -->
+        <a href="product.html?mood=fresh" class="product-card" style="padding: 2.5rem 1.5rem; text-align: center; text-decoration: none; align-items: center; justify-content: center;">
+          <span class="tag tag-fresh" style="margin-bottom: 1rem;">Fresh Mood</span>
+          <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Fresh</h3>
+          <p style="font-size: 0.9rem;">สดชื่น มีพลังบวก พร้อมลุยทุกกิจกรรม</p>
+        </a>
+
+        <!-- Mood: Relax -->
+        <a href="product.html?mood=relax" class="product-card" style="padding: 2.5rem 1.5rem; text-align: center; text-decoration: none; align-items: center; justify-content: center;">
+          <span class="tag tag-relax" style="margin-bottom: 1rem;">Relax Mood</span>
+          <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Relax</h3>
+          <p style="font-size: 0.9rem;">ผ่อนคลาย อบอุ่น สบายๆ ในวันสโลว์ไลฟ์</p>
+        </a>
+
+        <!-- Mood: Focus -->
+        <a href="product.html?mood=focus" class="product-card" style="padding: 2.5rem 1.5rem; text-align: center; text-decoration: none; align-items: center; justify-content: center;">
+          <span class="tag tag-focus" style="margin-bottom: 1rem;">Focus Mood</span>
+          <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Focus</h3>
+          <p style="font-size: 0.9rem;">สุขุม มีสมาธิ มั่นใจในสไตล์เรียบหรู</p>
+        </a>
+
+        <!-- Mood: Romance -->
+        <a href="product.html?mood=romance" class="product-card" style="padding: 2.5rem 1.5rem; text-align: center; text-decoration: none; align-items: center; justify-content: center;">
+          <span class="tag tag-romance" style="margin-bottom: 1rem;">Romance Mood</span>
+          <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Romance</h3>
+          <p style="font-size: 0.9rem;">หวานละมุน นุ่มนวล เติมเสน่ห์ให้ทุกวัน</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-light); padding: 3rem 0; text-align: center; margin-top: 4rem;">
+    <div class="container">
+      <p style="color: var(--text-light); font-size: 0.85rem;">&copy; AuraCarry. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
