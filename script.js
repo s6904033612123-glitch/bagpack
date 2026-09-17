@@ -4,7 +4,7 @@
    ========================================================================== */
 
 // Config URLs (Replace with your actual Google Apps Script & Published CSV URLs)
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz-uAD_ozBHm-pRuUaeUl3Ll2yVPSrAw5ZVRItAvlzoA_JhNH8I9VDfwgmvypAyE53P/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylWek1oJbU3ewZyvruhRhaLtwBpI9_ixD0IlbNPVvMdKVsE9qyEjfLX2tspGurcJee/exec';
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQdEblMsO7DFYMYtIpmf_csGH-ojLcLVYD14aBpEm_hdBe6CIXCnTF0uX2VxMZbP6t1LTr6Dq0e_2Mv/pub?output=csv';
 
 document.addEventListener('DOMContentLoaded', () => {
